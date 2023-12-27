@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane prefHeight="66.0" prefWidth="888.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.app.Controller.Client.Song.SongItemUserCreate">
+    <!--    <Line endX="888.0000610351562" endY="65.99998474121094" startY="66.0" />-->
+    <HBox fx:id="songContainer" prefHeight="74.0" prefWidth="888.0" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <children>
+            <AnchorPane  prefHeight="74.0" prefWidth="310.0">
+                <children>
+                    <Label fx:id="nameSong" layoutX="139.0" layoutY="25.0" style="-fx-font-weight: 700;" text="Tên bài hát" />
+                    <ImageView fx:id="img" fitHeight="46.0" fitWidth="64.0" layoutX="35.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" />
+
+                </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="74.0" prefWidth="350.0">
+                <children>
+                    <Label fx:id="author" layoutX="124.0" layoutY="25.0" style="-fx-font-weight: 700;" text="Ca sĩ" />
+                </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="66.0" prefWidth="227.0">
+                <children>
+                    <Button fx:id="add_btn" layoutX="80.0" layoutY="21.0" mnemonicParsing="false" text="Thêm" />
+                </children>
+            </AnchorPane>
+        </children>
+    </HBox>
+
+</AnchorPane>

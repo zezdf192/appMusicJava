@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane fx:id="box" prefHeight="74.0" prefWidth="888.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.app.Controller.Client.Song.CheckSongItem">
+    <HBox fx:id="songContainer" prefHeight="74.0" prefWidth="888.0" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <children>
+            <AnchorPane prefHeight="74.0" prefWidth="310.0">
+                <children>
+                    <Label fx:id="nameSong" layoutX="103.0" layoutY="14.0" style="-fx-font-weight: 700;" text="Tên bài hát" />
+                    <Label fx:id="nameAuthor" layoutX="103.0" layoutY="39.0" style="-fx-font-weight: 700;" text="Tên ca sĩ" />
+                    <ImageView fx:id="img" fitHeight="53.0" fitWidth="66.0" layoutX="14.0" layoutY="9.0" pickOnBounds="true" preserveRatio="false">
+                        <!--                        <image>-->
+                        <!--                            <Image url="@../../../images/pexels-petr-slováček-18925513.jpg" />-->
+                        <!--                        </image>-->
+                    </ImageView>
+                </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="74.0" prefWidth="263.0">
+                <children>
+                    <Label fx:id="abum" layoutY="28.0" style="-fx-font-weight: 700;" text="Tên Album" />
+                </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="74.0" prefWidth="110.0">
+                <children>
+                    <Label fx:id="dateCreated" contentDisplay="CENTER" layoutX="14.0" layoutY="28.0" style="-fx-font-weight: 700;" text="Ngày thêm" />
+                </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="74.0" prefWidth="134.0">
+            <children>
+               <Label fx:id="status" layoutX="53.0" layoutY="29.0" style="-fx-font-weight: 700;" text="Trang thai" textFill="#4bc9bf" />
+            </children>
+            </AnchorPane>
+        </children>
+    </HBox>
+</AnchorPane>

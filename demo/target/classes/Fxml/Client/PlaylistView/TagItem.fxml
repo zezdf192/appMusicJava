@@ -1,0 +1,25 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+
+<!--<?import java.net.URL?>-->
+<!--<?import javafx.scene.Cursor?>-->
+<!--<?import javafx.scene.control.Label?>-->
+<!--<?import javafx.scene.image.Image?>-->
+<!--<?import javafx.scene.image.ImageView?>-->
+<!--<?import javafx.scene.layout.AnchorPane?>-->
+
+<!--<AnchorPane prefHeight="59.0" prefWidth="269.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.app.Controller.Client.TagItemController">-->
+<!--    <AnchorPane prefHeight="59.0" prefWidth="269.0" styleClass="item_playlist">-->
+<!--        <cursor>-->
+<!--            <Cursor fx:constant="HAND" />-->
+<!--        </cursor>-->
+<!--        <ImageView fitHeight="59.0" fitWidth="74.0" pickOnBounds="true" preserveRatio="false">-->
+<!--            <image>-->
+<!--                <Image url="https://res.cloudinary.com/djfpcyyfe/image/upload/v1701317181/y1mzghqzuimgxbfrl20l.jpg" />-->
+<!--            </image>-->
+<!--        </ImageView>-->
+<!--        <Label layoutX="98.0" layoutY="20.0" style="-fx-font-size: 14px;" styleClass="item_playlist" stylesheets="@../../../Styles/page.css" text="Sơn Tùng M-TP" />-->
+<!--      <stylesheets>-->
+<!--         <URL value="@../../../Styles/page.css" />-->
+<!--      </stylesheets>-->
+<!--    </AnchorPane>-->
+<!--</AnchorPane>-->

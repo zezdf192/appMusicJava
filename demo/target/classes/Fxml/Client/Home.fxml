@@ -1,0 +1,76 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+
+<!--<?import javafx.scene.Cursor?>-->
+<!--<?import javafx.scene.control.Label?>-->
+<!--<?import javafx.scene.control.ScrollPane?>-->
+<!--<?import javafx.scene.effect.DropShadow?>-->
+<!--<?import javafx.scene.image.Image?>-->
+<!--<?import javafx.scene.image.ImageView?>-->
+<!--<?import javafx.scene.layout.AnchorPane?>-->
+<!--<?import javafx.scene.layout.HBox?>-->
+<!--<?import javafx.scene.layout.VBox?>-->
+<!--<?import javafx.scene.text.Text?>-->
+
+<!--<AnchorPane prefHeight="633.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.app.Controller.Client.HomeController">-->
+<!--   <AnchorPane layoutX="11.0" layoutY="16.0" prefHeight="600.0" prefWidth="938.0" style="-fx-background-color: #BCCEF8; -fx-background-radius: 12px;">-->
+<!--      <Text layoutX="58.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 18px; -fx-font-weight: 700;" text="Chào buổi sáng" />-->
+<!--      <AnchorPane fx:id="list_box" layoutX="58.0" layoutY="114.0" prefHeight="59.0" prefWidth="269.0" styleClass="item_playlist" stylesheets="@../../../Styles/page.css">-->
+<!--         <cursor>-->
+<!--            <Cursor fx:constant="HAND" />-->
+<!--         </cursor>-->
+<!--         <ImageView fitHeight="59.0" fitWidth="74.0" pickOnBounds="true" preserveRatio="false">-->
+<!--            <Image url="@../../../images/sonic2.png" />-->
+<!--         </ImageView>-->
+<!--         <Label layoutX="72.0" layoutY="21.0" style="-fx-font-size: 14px;" styleClass="item_playlist" stylesheets="@../../../Styles/page.css" text="Danh sách phát nhạc của tôi" />-->
+<!--      </AnchorPane>-->
+<!--      <AnchorPane layoutX="371.0" layoutY="114.0" prefHeight="59.0" prefWidth="255.0" styleClass="item_playlist" stylesheets="@../../../Styles/page.css">-->
+<!--         <children>-->
+<!--            <ImageView fitHeight="59.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="false">-->
+<!--               <image>-->
+<!--                  <Image url="@../../../images/pexels-ahmet-öktem-19211825.jpg" />-->
+<!--               </image>-->
+<!--            </ImageView>-->
+<!--            <Label layoutX="72.0" layoutY="21.0" prefHeight="20.0" prefWidth="202.0" style="-fx-font-size: 14px;" styleClass="item_playlist" stylesheets="@../../../Styles/page.css" text="Danh sách phát nhạc của tôi" />-->
+<!--         </children>-->
+<!--         <cursor>-->
+<!--            <Cursor fx:constant="HAND" />-->
+<!--         </cursor>-->
+<!--      </AnchorPane>-->
+<!--      <AnchorPane layoutX="58.0" layoutY="200.0" prefHeight="59.0" prefWidth="269.0" styleClass="item_playlist" stylesheets="@../../../Styles/page.css">-->
+<!--         <cursor>-->
+<!--            <Cursor fx:constant="HAND" />-->
+<!--         </cursor>-->
+<!--         <ImageView fitHeight="59.0" fitWidth="74.0" pickOnBounds="true" preserveRatio="false">-->
+<!--            <image>-->
+<!--               <Image url="@../../../images/mtp.jpg" />-->
+<!--            </image>-->
+<!--         </ImageView>-->
+<!--         <Label layoutX="72.0" layoutY="21.0" style="-fx-font-size: 14px;" styleClass="item_playlist" stylesheets="@../../../Styles/page.css" text="Sơn Tùng M-TP" />-->
+<!--      </AnchorPane>-->
+<!--      <VBox layoutX="58.0" layoutY="300.0" prefHeight="286.0" prefWidth="827.0">-->
+<!--         <HBox>-->
+<!--            <Text layoutX="58.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 18px; -fx-font-weight: 700;" text="Dành cho bạn" />-->
+<!--         </HBox>-->
+<!--         <ScrollPane prefHeight="250.0" prefWidth="827.0">-->
+<!--            <VBox fx:id="playlist_item_layout" prefHeight="218.0" prefWidth="830.0">-->
+<!--               <children>-->
+<!--               </children>-->
+<!--            </VBox>-->
+<!--         </ScrollPane>-->
+<!--      </VBox>-->
+<!--   </AnchorPane>-->
+<!--</AnchorPane>-->
+
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane fx:id="client_parent" xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml" style="-fx-background-color: #BCCEF8; -fx-background-radius: 12px;"
+            prefHeight="600.0"
+>
+   <top>
+      <fx:include source="HomeView/TopHomeView.fxml"/>
+   </top>
+   <bottom>
+      <fx:include source="HomeView/BottomHomeView.fxml"/>
+   </bottom>
+
+</BorderPane>

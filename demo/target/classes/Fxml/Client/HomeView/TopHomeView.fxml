@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.image.Image?>
+<AnchorPane prefHeight="200.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.app.Controller.Client.Home.TopHomeController">
+    <AnchorPane layoutX="11.0" layoutY="16.0" prefHeight="200.0" prefWidth="938.0" AnchorPane.bottomAnchor="0.0">
+        <Text layoutX="58.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 18px; -fx-font-weight: 700;" text="Chào buổi sáng" />
+        <AnchorPane fx:id="box_1" layoutX="58.0" layoutY="114.0" prefHeight="59.0" prefWidth="350.0" styleClass="item_playlist" stylesheets="@../../../Styles/page.css">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+            <ImageView fitHeight="59.0" fitWidth="74.0" pickOnBounds="true" preserveRatio="false">
+                <image>
+                                        <Image url="https://res.cloudinary.com/djfpcyyfe/image/upload/v1701788708/im7lnao44vyhirjqucw7.jpg" />
+                </image>
+            </ImageView>
+            <Label layoutX="121.0" layoutY="19.0" style="-fx-font-size: 14px;" styleClass="item_playlist" stylesheets="@../../../Styles/page.css" text="Album nhạc Sơn Tùng M-TP" />
+         <Label layoutX="90.0" layoutY="14.0" style="-fx-font-size: 20px;" text="#1" />
+        </AnchorPane>
+        <AnchorPane fx:id="box_2" layoutX="480.0" layoutY="114.0" prefHeight="59.0" prefWidth="342.0" styleClass="item_playlist" stylesheets="@../../../Styles/page.css">
+
+                <Label layoutX="125.0" layoutY="19.0" prefHeight="20.0" prefWidth="202.0" style="-fx-font-size: 14px;" styleClass="item_playlist" stylesheets="@../../../Styles/page.css" text="Album nhạc Karik" />
+            <ImageView fitHeight="59.0" fitWidth="74.0" pickOnBounds="true" preserveRatio="false">
+                <image>
+                                        <Image url="https://res.cloudinary.com/djfpcyyfe/image/upload/v1701789896/qmqblui00y2ewkg7xtqs.jpg" />
+                </image>
+            </ImageView>
+         <Label layoutX="89.0" layoutY="14.0" style="-fx-font-size: 20px;" text="#2" />
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </AnchorPane>
+        <AnchorPane fx:id="box_3" layoutX="58.0" layoutY="200.0" prefHeight="59.0" prefWidth="350.0" styleClass="item_playlist" stylesheets="@../../../Styles/page.css">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+            <ImageView fitHeight="59.0" fitWidth="74.0" pickOnBounds="true" preserveRatio="false">
+                <image>
+                                        <Image url="https://res.cloudinary.com/djfpcyyfe/image/upload/v1701790326/duhffmibu7pnyktyynfv.jpg" />
+                </image>
+            </ImageView>
+            <Label layoutX="120.0" layoutY="20.0" style="-fx-font-size: 14px;" styleClass="item_playlist" stylesheets="@../../../Styles/page.css" text="Album nhạc Hồ Ngọc Hà" />
+         <Label layoutX="89.0" layoutY="14.0" style="-fx-font-size: 20px;" text="#3" />
+        </AnchorPane>
+
+    </AnchorPane>
+
+</AnchorPane>

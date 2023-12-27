@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="438.0" prefWidth="591.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.app.Controller.Admin.CheckSong.UpdateCheckSongController">
+    <children>
+        <Text layoutX="187.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 24px; -fx-font-weight: 700;" text="KIỂM DUYỆT NHẠC" />
+        <Text layoutX="24.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 20px;" text="Lý do từ chối" />
+        <TextArea fx:id="text_field" layoutX="20.0" layoutY="128.0" prefHeight="234.0" prefWidth="549.0" />
+        <Button fx:id="submit_btn" layoutX="504.0" layoutY="380.0" mnemonicParsing="false" style="-fx-background-color: #3887BE; -fx-text-fill: #ffffff;" text="Xác nhận" />
+    </children>
+</AnchorPane>

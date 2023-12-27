@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="614.0" prefWidth="961.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.app.Controller.Client.PlaylistUserCreate.DetailPlaylistUserController">
+    <children>
+        <Text fx:id="header" layoutX="194.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 24px; -fx-font-weight: 700;" text="ABUM#11234" />
+        <AnchorPane layoutY="44.0" prefHeight="313.0" prefWidth="960.0">
+            <HBox layoutY="23.0" prefHeight="37.0" prefWidth="960.0">
+                <children>
+                    <Label prefHeight="18.0" prefWidth="310.0" style="-fx-font-weight: 700;" text="       #Tiêu đề" />
+                    <Label prefHeight="18.0" prefWidth="350.0" style="-fx-font-weight: 700;" text="Album" />
+                    <Label prefWidth="140" style="-fx-font-weight: 700;" text="Ngày thêm" />
+                    <Label prefWidth="120" style="-fx-font-weight: 700;" text="Hành động" />
+                </children>
+            </HBox>
+            <HBox layoutX="12.0" layoutY="48.0" prefHeight="259.0" prefWidth="948.0">
+                <children>
+                    <ScrollPane prefHeight="265.0" prefWidth="948.0">
+                        <content>
+
+
+                            <VBox fx:id="songListView" layoutX="13.0" prefHeight="252.0" prefWidth="936.0">
+                                <children>
+                                </children>
+                            </VBox>
+
+
+                        </content>
+                    </ScrollPane>
+                </children>
+            </HBox>
+        </AnchorPane>
+        <AnchorPane layoutX="1.0" layoutY="362.0" prefHeight="239.0" prefWidth="960.0">
+            <children>
+                <Text layoutX="24.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700;" text="Hãy cùng tìm nội dung cho danh sách phát của bạn" />
+                <TextField fx:id="text_search" layoutX="365.0" layoutY="22.0" prefHeight="25.0" prefWidth="227.0" />
+                <HBox layoutX="7.0" layoutY="61.0" prefHeight="186.0" prefWidth="948.0">
+                    <children>
+                        <ScrollPane prefHeight="165.0" prefWidth="959.0">
+                            <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="170.0" prefWidth="954.0">
+                                    <children>
+                                        <VBox fx:id="songSearchView" layoutX="1.0" prefHeight="170.0" prefWidth="948.0">
+                                            <children>
+                                            </children>
+                                        </VBox>
+                                    </children>
+                                </AnchorPane>
+                            </content>
+                        </ScrollPane>
+                    </children>
+                </HBox>
+            </children></AnchorPane>
+      <Label layoutX="50.0" layoutY="12.0" style="-fx-font-weight: 800; -fx-font-size: 24px;" text="Playlist #" />
+    </children>
+</AnchorPane>

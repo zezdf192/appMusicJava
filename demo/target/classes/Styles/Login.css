@@ -1,0 +1,20 @@
+.login_container {
+    -fx-background-color: #212c8f;
+}
+
+.text_logo {
+    -fx-text-fill: #212c8f;
+    -fx-text-weight: 500;
+}
+
+.text_title {
+    -fx-font-size: 18px; /* Add the unit, e.g., pixels */
+    -fx-font-weight: 400;
+    -fx-text-fill: #212c8f;
+}
+
+.button {
+    -fx-background-color: #212c8f;
+    -fx-text-fill: white;
+    -fx-text-size: 18px;
+}

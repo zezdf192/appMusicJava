@@ -1,0 +1,65 @@
+.icon_text {
+    -fx-font-size: 18px;
+    -fx-background-radius: 10px;
+    -fx-background-color: none;
+}
+
+.icon_text-sm {
+    -fx-font-size: 14px;
+    -fx-background-radius: 10px;
+    -fx-background-color: none;
+}
+
+.icon {
+    -fx-padding: 4px;
+}
+
+.background_item {
+    -fx-background-color: #9EB8D9;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0, 0, 0);
+}
+
+/* Hover effect for .icon_text */
+.icon_text:hover {
+    -fx-text-fill: #E0F4FF;
+}
+
+.icon:hover {
+    -fx-text-fill: #E0F4FF;
+}
+
+.icon_text-sm:hover {
+    -fx-text-fill: #E0F4FF;
+}
+
+.item_playlist {
+    -fx-background-radius: 4px;
+    -fx-background-color: #EEF5FF;
+    -fx-font-size: 12px;
+    -fx-text-fill: #576CBC;
+    -fx-font-weight: 700;
+}
+
+.img_item_playlist {
+    -fx-background-size: cover;
+        -fx-background-position: center center;
+        -fx-background-repeat: no-repeat;
+        -fx-background-radius: 4px;
+            -fx-background-color: #F4EAE0;
+            -fx-font-size: 12px;
+            -fx-text-fill: #576CBC;
+}
+
+
+.img_item_playlist > ImageView {
+    -fx-fit-width: 100%;
+    -fx-fit-height: 100%;
+}
+
+.item_playlist:hover {
+    -fx-background-color: #E0F4FF;
+}
+
+.img_item_playlist:hover {
+-fx-background-color: #E0F4FF;
+}

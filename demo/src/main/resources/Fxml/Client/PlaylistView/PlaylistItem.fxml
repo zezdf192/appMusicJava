@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="container" prefHeight="248.0" prefWidth="172.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.app.Controller.Client.Playlist.PlaylistItemController">
+    <AnchorPane layoutX="19.0" layoutY="17.0" prefHeight="218.0" prefWidth="130.0" styleClass="img_item_playlist" stylesheets="@../../../Styles/page.css">
+        <children>
+            <ImageView fx:id="img" fitHeight="135.0" fitWidth="130.0" layoutY="1.0" pickOnBounds="true" preserveRatio="false">
+            </ImageView>
+            <Label fx:id="namePlaylist" layoutX="14.0" layoutY="148.0" style="-fx-font-weight: 700;" text="Thiên nhiên" />
+            <Text fx:id="des_Playlist" layoutX="11.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-translate-x: 4px;" text="Những âm thanh giai điệu thiên nhiên..." wrappingWidth="117.8067855834961" />
+        </children>
+        <effect>
+            <DropShadow />
+        </effect>
+    </AnchorPane>
+</AnchorPane>

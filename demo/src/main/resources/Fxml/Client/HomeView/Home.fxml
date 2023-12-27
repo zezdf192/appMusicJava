@@ -1,0 +1,14 @@
+
+
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane fx:id="client_parent" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" style="-fx-background-color: #BCCEF8; -fx-background-radius: 12px;"
+            prefHeight="600.0"
+>
+   <top>
+      <fx:include source="TopHomeView.fxml"/>
+   </top>
+   <bottom>
+      <fx:include source="BottomHomeView.fxml"/>
+   </bottom>
+
+</BorderPane>

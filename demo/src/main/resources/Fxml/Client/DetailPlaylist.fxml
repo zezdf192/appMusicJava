@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="600.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.app.Controller.Client.Playlist.DetailPlaylistController">
+    <children>
+        <AnchorPane layoutX="7.0" layoutY="15.0" prefHeight="271.0" prefWidth="942.0" style="-fx-background-color: #BCCEF8; -fx-background-radius: 12px;">
+            <children>
+                <AnchorPane layoutX="387.0" layoutY="39.0" prefHeight="200.0" prefWidth="453.0">
+                    <children>
+                        <Label layoutX="14.0" layoutY="28.0" text="Playlist" />
+                        <Label fx:id="namePlaylist" layoutX="14.0" layoutY="55.0" style="-fx-font-size: 24px; -fx-font-weight: 800;" text="Thiên hạ nghe gì" />
+                        <Label fx:id="category" layoutX="18.0" layoutY="92.0" text="Những bài hát được xem và theo dõi nhiều nhất" />
+                        <FontAwesomeIconView glyphName="SPOTIFY" layoutX="18.0" layoutY="144.0" size="24.0" wrappingWidth="13.485726356506348" />
+                        <Label layoutX="51.0" layoutY="127.0" text="Sonic Sound" />
+
+                        <Label fx:id="des_likePlaylist" layoutX="162.0" layoutY="127.0" text="Bạn có thích Playlist này?" />
+                        <FontAwesomeIconView fx:id="like_Playlist" fill="WHITE" glyphName="HEART" layoutX="314.0" layoutY="148.0" size="32px" text="">
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor></FontAwesomeIconView>
+
+
+                    </children>
+                </AnchorPane>
+                <ImageView fx:id="img" fitHeight="174.0" fitWidth="244.0" layoutX="72.0" layoutY="42.0" pickOnBounds="true" preserveRatio="false">
+<!--                    <image>-->
+<!--                        <Image url="https://res.cloudinary.com/djfpcyyfe/image/upload/v1701314133/r9uvaqndcbx9ft0cagef.jpg" />-->
+<!--                    </image>-->
+                </ImageView>
+
+                <Button layoutX="760.0" layoutY="65.0" mnemonicParsing="false" style="-fx-background-color: none;" />
+
+            <Button layoutX="760.0" layoutY="65.0" mnemonicParsing="false" style="-fx-background-color: none;" />
+
+            </children>
+        </AnchorPane>
+        <VBox fx:id="vbox" layoutX="34.0" layoutY="306.0" prefHeight="278.0" prefWidth="888.0">
+            <children>
+                <HBox prefHeight="37.0" prefWidth="670.0">
+                    <children>
+                        <Label prefHeight="18.0" prefWidth="310.0" style="-fx-font-weight: 700;" text="       #Tiêu đề" />
+                        <Label prefHeight="18.0" prefWidth="325.0" style="-fx-font-weight: 700;" text="Album" />
+                        <Label alignment="CENTER" prefHeight="18.0" prefWidth="130.0" style="-fx-font-weight: 700;" text="Ngày thêm" />
+                        <Label alignment="CENTER" prefHeight="18.0" prefWidth="150.0" style="-fx-font-weight: 700;" text="Like    " />
+                    </children>
+                </HBox>
+                <HBox prefHeight="272.0" prefWidth="909.0">
+                    <children>
+                        <ScrollPane fx:id="scroll_songitem" prefHeight="266.0" prefWidth="886.0">
+                            <content>
+                                <VBox fx:id="vbox_layout" prefHeight="264.0" prefWidth="874.0">
+                                    <children>
+                                    </children>
+                                </VBox>
+                            </content>
+                        </ScrollPane>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

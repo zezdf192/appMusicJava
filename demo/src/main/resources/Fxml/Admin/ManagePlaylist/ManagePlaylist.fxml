@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.app.Controller.Admin.ManagePlaylist.ManagePlaylistController"
+            prefHeight="600.0" prefWidth="960.0">
+    <children>
+        <AnchorPane layoutX="11.0" layoutY="14.0" prefHeight="599.0" prefWidth="934.0" style="-fx-background-color: #BCCEF8; -fx-background-radius: 12px;" AnchorPane.bottomAnchor="12.0" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="14.0">
+            <children>
+                <HBox layoutX="34.0" layoutY="115.0" prefHeight="41.0" prefWidth="861.0">
+                    <children>
+                        <AnchorPane prefHeight="41.0" prefWidth="861.0">
+                            <children>
+<!--                                <Label layoutX="411.0" layoutY="7.0" style="-fx-font-size: 18px;" text="Lượt like" />-->
+                                <Label layoutX="251.0" layoutY="7.0" style="-fx-font-size: 18px;" text="Mô tả" />
+                                <Label layoutX="33.0" layoutY="7.0" style="-fx-font-size: 18px;" text="Tên" />
+                                <Label layoutX="589.0" layoutY="7.0" style="-fx-font-size: 18px;" text="Số bài hát" />
+                                <Label layoutX="773.0" layoutY="12.0" style="-fx-font-size: 18px;" text="Actions" />
+                            </children>
+                        </AnchorPane>
+                    </children>
+                </HBox>
+                <Text layoutX="375.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 20px; -fx-font-weight: 700;" text="Quản lý playlist" />
+                <ScrollPane layoutX="34.0" layoutY="156.0" prefHeight="418.0" prefWidth="874.0">
+                    <content>
+                        <VBox fx:id="vbox" layoutX="1.0" prefHeight="407.0" prefWidth="858.0" >
+                            <children></children>
+                        </VBox>
+                    </content>
+                </ScrollPane>
+                <Button fx:id="add_btn" layoutX="34.0" layoutY="75.0" mnemonicParsing="false" text="Thêm mới playlist" />
+                <ComboBox fx:id="arrange_comboBox" layoutX="488.0" layoutY="75.0" prefWidth="150.0" promptText="Sắp xếp theo tên" />
+                <TextField fx:id="text_find" layoutX="668.0" layoutY="75.0" promptText="Nhập thông tin tìm kiếm" />
+                <ComboBox fx:id="find_comboBox" layoutX="300.0" layoutY="75.0" prefWidth="150.0" promptText="Tìm kiếm theo tên" />
+                <Button fx:id="find_btn" layoutX="843.0" layoutY="75.0" mnemonicParsing="false" text="Tìm kiếm" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

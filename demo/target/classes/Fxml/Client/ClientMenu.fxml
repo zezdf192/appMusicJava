@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="633.0" prefWidth="248.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.app.Controller.Client.ClientMenuController">
+    <AnchorPane prefHeight="500.0" prefWidth="232.0" style="-fx-opacity: 1;">
+        <AnchorPane layoutX="11.0" layoutY="14.0" prefHeight="146.0" prefWidth="224.0" style="-fx-background-radius: 12px;" styleClass="background_item">
+            <stylesheets>
+                <URL value="@../../Styles/page.css" />
+                <URL value="@../../Styles/page.css" />
+            </stylesheets>
+            <Button fx:id="home_btn" layoutX="11.0" layoutY="14.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="130.0" style="-fx-background-color: none;" styleClass="icon_text" text="Trang chủ">
+                <graphic>
+                    <FontAwesomeIconView glyphName="HOME" size="24.0" text="" />
+                </graphic>
+                <stylesheets>
+                    <URL value="@../../Styles/page.css" />
+                    <URL value="@../../Styles/page.css" />
+                </stylesheets>
+            </Button>
+            <Button fx:id="search_btn" layoutX="11.0" layoutY="73.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="130.0" style="-fx-background-color: none;" styleClass="icon_text" text="Tìm kiếm">
+                <graphic>
+                    <FontAwesomeIconView glyphName="SEARCH" size="18.0" />
+                </graphic>
+                <stylesheets>
+                    <URL value="@../../Styles/page.css" />
+                    <URL value="@../../Styles/page.css" />
+                </stylesheets>
+            </Button>
+        </AnchorPane>
+        <AnchorPane layoutX="11.0" layoutY="203.0" prefHeight="415.0" prefWidth="224.0" style="-fx-background-radius: 12px;" styleClass="background_item">
+            <stylesheets>
+                <URL value="@../../Styles/page.css" />
+                <URL value="@../../Styles/page.css" />
+            </stylesheets>
+            <Button fx:id="library_page_btn" layoutX="14.0" layoutY="21.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="113.0" style="-fx-background-radius: 10px; -fx-font-size: 18px; -fx-background-color: none;" text="Thư viện">
+                <graphic>
+                    <FontAwesomeIconView glyphName="BOOK" text="" />
+                </graphic>
+            </Button>
+            <Button fx:id="mymusic_btn" layoutX="37.0" layoutY="84.0" mnemonicParsing="false" styleClass="icon_text-sm" text="Nhạc của bạn">
+                <graphic>
+                    <FontAwesomeIconView glyphName="HEADPHONES" />
+                </graphic>
+                <stylesheets>
+                    <URL value="@../../Styles/page.css" />
+                    <URL value="@../../Styles/page.css" />
+                </stylesheets>
+            </Button>
+            <Button fx:id="collection_btn" layoutX="36.0" layoutY="153.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="106.0" styleClass="icon_text-sm" text="Bộ sưu tập">
+                <graphic>
+                    <FontAwesomeIconView glyphName="HEART" />
+                </graphic>
+                <stylesheets>
+                    <URL value="@../../Styles/page.css" />
+                    <URL value="@../../Styles/page.css" />
+                </stylesheets>
+            </Button>
+            <Button fx:id="playlist_btn" layoutX="39.0" layoutY="230.0" mnemonicParsing="false" styleClass="icon_text-sm" text="Danh sách phát">
+                <graphic>
+                    <FontAwesomeIconView glyphName="LIST" />
+                </graphic>
+                <stylesheets>
+                    <URL value="@../../Styles/page.css" />
+                    <URL value="@../../Styles/page.css" />
+                </stylesheets>
+            </Button>
+            <Button fx:id="logout_btn" layoutX="102.0" layoutY="361.0" mnemonicParsing="false" styleClass="icon_text" text="Logout">
+                <graphic>
+                    <FontAwesomeIconView glyphName="EXTERNAL_LINK" />
+                </graphic>
+                <stylesheets>
+                    <URL value="@../../Styles/page.css" />
+                    <URL value="@../../Styles/page.css" />
+                </stylesheets>
+            </Button>
+        </AnchorPane>
+    </AnchorPane>
+</AnchorPane>
